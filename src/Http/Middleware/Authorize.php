@@ -1,9 +1,9 @@
 <?php
 
-namespace Day4\SwitchLocale\Http\Middleware;
+namespace ibakhsh\SwitchLocale\Http\Middleware;
 
 use Laravel\Nova\Nova;
-use Day4\SwitchLocale\SwitchLocale;
+use ibakhsh\SwitchLocale\SwitchLocale;
 
 class Authorize
 {

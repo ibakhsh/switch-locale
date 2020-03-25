@@ -1,12 +1,12 @@
 <?php
 
-namespace Day4\SwitchLocale;
+namespace ibakhsh\SwitchLocale;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Day4\SwitchLocale\Http\Middleware\Authorize;
+use ibakhsh\SwitchLocale\Http\Middleware\Authorize;
 
 class ToolServiceProvider extends ServiceProvider
 {
@@ -36,7 +36,7 @@ class ToolServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova', Authorize::class])
-                ->namespace('Day4\SwitchLocale\Http\Controllers')
+                ->namespace('ibakhsh\SwitchLocale\Http\Controllers')
                 ->prefix('nova-vendor/switch-locale')
                 ->group(__DIR__.'/../routes/api.php');
     }

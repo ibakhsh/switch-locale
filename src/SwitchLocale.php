@@ -1,6 +1,6 @@
 <?php
 
-namespace Day4\SwitchLocale;
+namespace ibakhsh\SwitchLocale;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;

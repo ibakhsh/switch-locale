@@ -11,7 +11,7 @@ It also provides a `Language` field which gives you the status of the translatio
 ## Installation
 
 ```
-composer require day4/switch-locale
+composer require ibakhsh/switch-locale
 ```
 
 ## Usage
@@ -57,7 +57,7 @@ The package provides a switch for the languages that you have to insert into Nov
 You can then define the field in the resource.
 
 ```
-use Day4\SwitchLocale\Language;
+use ibakhsh\SwitchLocale\Language;
 
     Language::make(__('Translation'))
 ```
@@ -110,7 +110,7 @@ public function allowedAllLocale() {
 // User Nova Resource app/Nova/User.php
 
 use Laravel\Nova\Fields\BooleanGroup;
-use Day4\SwitchLocale\SwitchLocale;
+use ibakhsh\SwitchLocale\SwitchLocale;
 …
 
     BooleanGroup::make(__('Allowed Locale'), 'locale')->options(SwitchLocale::getLocales()),
