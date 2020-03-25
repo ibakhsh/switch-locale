@@ -1,6 +1,6 @@
 <?php
 
-namespace Day4\SwitchLocale;
+namespace ibakhsh\SwitchLocale;
 
 use Spatie\Translatable\HasTranslations as SpatieTrait;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Day4\SwitchLocale\Http\Controllers;
+namespace ibakhsh\SwitchLocale\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Day4\SwitchLocale\SwitchLocale;
+use ibakhsh\SwitchLocale\SwitchLocale;
 use Illuminate\Http\Request;
 use Laravel\Nova\Http\Controllers\DeletesFields;
 use Laravel\Nova\Nova;
