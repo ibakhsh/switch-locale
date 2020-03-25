@@ -180,5 +180,5 @@ class PostPolicy
 **Note** You should probably have some other permissions and rules in place to limit users from giving them selves access to languages etc.
 
 ## Credits
-
+Forked from [u12206050](https://github.com/u12206050/switch-locale)
 Originally forked from [slovenianGooner](https://github.com/slovenianGooner/locale-anywhere)
