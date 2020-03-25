@@ -26,8 +26,11 @@
           <a
             @click.prevent="switchLocale(locale)"
             class="block no-underline text-90 hover:bg-30 p-3 cursor-pointer"
-            >{{ locale | flag }} {{ language }} <span v-if="allowed" class="float-right">{{ allowed[locale] ? '🟢' : '🔴' }}</span></a
           >
+            <slot name="prelist"></slot>
+            {{ locale | flag }} {{ language }}
+            <span v-if="allowed" class="float-right">{{ allowed[locale] ? '🟢' : '🔴' }}</span>
+          </a>
         </li>
       </ul>
     </dropdown-menu>
