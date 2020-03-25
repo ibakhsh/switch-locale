@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Day4\\SwitchLocale\\": "src/"
+            "ibakhsh\\SwitchLocale\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Day4\\SwitchLocale\\ToolServiceProvider"
+                "ibakhsh\\SwitchLocale\\ToolServiceProvider"
             ]
         }
     },
