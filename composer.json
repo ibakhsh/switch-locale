@@ -1,5 +1,5 @@
 {
-    "name": "day4/switch-locale",
+    "name": "ibakhsh/switch-locale",
     "description": "A Laravel Nova tool to switch the locale",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Day4\\SwitchLocale\\": "src/"
+            "ibakhsh\\SwitchLocale\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Day4\\SwitchLocale\\ToolServiceProvider"
+                "ibakhsh\\SwitchLocale\\ToolServiceProvider"
             ]
         }
     },
