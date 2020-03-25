@@ -1,5 +1,5 @@
 {
-    "name": "day4/switch-locale",
+    "name": "ibakhsh/switch-locale",
     "description": "A Laravel Nova tool to switch the locale",
     "keywords": [
         "laravel",
